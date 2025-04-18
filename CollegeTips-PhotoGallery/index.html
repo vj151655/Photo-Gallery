@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CollegeTips Photo Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>🌟 CollegeTips Moments Gallery 🌟</h1>
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="team">🤝 Team Vibes</button>
+    <button class="filter-btn" data-category="campaigns">🎨 Campaigns</button>
+    <button class="filter-btn" data-category="fun">🥳 Fun</button>
+    <button class="filter-btn" data-category="bts">🎥 BTS</button>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <!-- Team -->
+    <div class="gallery-item" data-category="team">
+      <a href="images/team1.jpg" target="_blank">
+        <img src="1.png" alt="Team 1"><div class="caption">Team Vibes 1 🤝</div>
+      </a>
+    </div>
+    <div class="gallery-item" data-category="team">
+      <a href="images/team2.jpg" target="_blank">
+        <img src="2.png" alt="Team 2"><div class="caption">Team Vibes 2 🤝</div>
+      </a>
+    </div>
+
+    <!-- Campaigns -->
+    <div class="gallery-item" data-category="campaigns">
+      <a href="images/campaign1.jpg" target="_blank">
+        <img src="3.png" alt="Campaign 1"><div class="caption">Creative Campaign 1 🎨</div>
+      </a>
+    </div>
+    <div class="gallery-item" data-category="campaigns">
+      <a href="images/campaign2.jpg" target="_blank">
+        <img src="10.png" alt="Campaign 2"><div class="caption">Creative Campaign 2 🎨</div>
+      </a>
+    </div>
+
+    <!-- Fun -->
+    <div class="gallery-item" data-category="fun">
+      <a href="images/fun1.jpg" target="_blank">
+        <img src="11.png" alt="Fun 1"><div class="caption">Fun Moment 1 🥳</div>
+      </a>
+    </div>
+    <div class="gallery-item" data-category="fun">
+      <a href="images/fun2.jpg" target="_blank">
+        <img src="8.png" alt="Fun 2"><div class="caption">Fun Moment 2 🥳</div>
+      </a>
+    </div>
+
+    <!-- BTS -->
+    <div class="gallery-item" data-category="bts">
+      <a href="images/bts1.jpg" target="_blank">
+        <img src="7.png" alt="BTS 1"><div class="caption">Behind the Scenes 1 🎥</div>
+      </a>
+    </div>
+    <div class="gallery-item" data-category="bts">
+      <a href="images/bts2.jpg" target="_blank">
+        <img src="4.png" alt="BTS 2"><div class="caption">Behind the Scenes 2 🎥</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
